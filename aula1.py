@@ -7,6 +7,6 @@ elif cargo == 'Analista' or cargo == "Estagiário":
     if dia_da_semana in ["Segunda", "Terça", "Quarta", "Quinta", "Sexta"]:
         print(f"Acesso Liberado no dia {dia_da_semana}")
     else:
-        ("Acesso Negado, Você só pode acessar de Segunda a Sexta")
+        print("Acesso Negado, Você só pode acessar de Segunda a Sexta")
 else:
     print("Acesso Negado. Cargo não reconhecido.")
